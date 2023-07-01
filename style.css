@@ -1,0 +1,107 @@
+.main{ 
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    padding: 25px 0;
+    width: 90%;
+    margin: auto;
+    height: 100%;
+    box-shadow: 0px 8px 11px -5px rgb(6, 1, 51);
+}
+body {
+    font-family: 'Lucida Sans';
+    background-color: #ddd;
+}
+.nav{
+    width: 90%;
+    height: 100%;
+    padding-top: 25px;
+}
+.nav a {
+    color: black;
+    font-size: 20px;
+    padding: 25px 25px;
+    text-decoration: none;
+    margin: 25px;
+}
+.nav li {
+    list-style-type: none;
+}
+.block1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 55vh;
+    color: #606060;
+    text-align: center;
+    margin-top: 10vh;
+}
+
+.block1-1 {
+    margin-top: 2%;
+}
+.block1-1 h1{
+    font-size: 1.4em;
+}
+.block1-1 h3{
+    margin: 30px 0;
+    font-size: 1.1em;
+}
+.block1-2 img{
+    width: 320px;
+    height: 280px; 
+    border-radius: 50%;
+}
+.block3 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 60%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.block3-content {
+    display: flex;
+    justify-content: space-evenly;
+    height: 100%;
+    color: black;
+}
+
+.block3-heading {
+    background: linear-gradient(to right, #c04848, #480048);
+    min-height: 75px;
+    height: auto;
+    font-size: 1.2em;
+    padding-top: 20px;
+    color: white;
+}
+
+.block3-text {
+    width: 40%;
+    height: 90%;
+    padding: 20px 0;
+}
+    
+.block4{
+    width: 100%;
+    display: flex;
+    padding: 10px 0; 
+    border: 2px solid grey;
+}
+
+.block4-form{ 
+    width: 100%;
+    margin: auto;
+    padding: 10px;
+}
+
+.block4-form h2{
+    text-align: center;
+    color: rgb(52, 95, 238);
+    font-weight: 600;
+    padding-bottom: 20px;
+}
